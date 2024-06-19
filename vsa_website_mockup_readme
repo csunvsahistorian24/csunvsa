@@ -1,0 +1,37 @@
+Mockup 1: Minimalist Elegance
+Layout:
+
+Clean and simple layout with ample white space.
+Top navigation bar in black with pastel peach text for main sections (About Us, Events, Contact).
+Hero section spanning the full width of the screen. Background image: A high-resolution photo showcasing a club activity (e.g., members participating in a debate, volunteering project, etc.). Overlayed text in a large, bold pastel peach font with a brief tagline for the club and a call to action button (e.g., "Join Us!").
+Sections below the hero section:
+"About Us": Black text on a white background with a brief description of the club, its mission, and its activities. Include a high-quality logo in pastel peach and black.
+"Events": Black text on a white background with a list of upcoming events. Each event entry has a title, date, time, and a short description. Emphasize important events with a subtle pastel peach background highlight.
+"Contact": Black text on a white background with contact information (email address, social media links) colored in pastel peach.
+Modern Design Elements:
+
+Use of subtle animations on hover effects (e.g., text slightly enlarges, slight color shift).
+Integration of high-quality photos throughout the website.
+Responsive design that adapts seamlessly to different screen sizes.
+
+Here's the code to make the background of a webpage pastel peach using CSS:
+
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pastel Peach Website</title>
+  <style>
+    body {
+      background-color: #FFDAB9; /* Pastel peach color in HEX code */
+      margin: 0;
+      padding: 0;
+    }
+    
+  </style>
+</head>
+<body>
+  </body>
+</html>
