@@ -64,7 +64,7 @@
       display: block; /* Make the button element display as a block */
       width: 200px; /* Adjust width as needed */
       height: 200px; /* Adjust height as needed to match width for circle */
-      background-image: url("/csun vsa logo.jpg"); /* Set the button background image */
+      background-image: url("images/csun vsa logo.jpg"); /* Set the button background image */
       background-repeat: no-repeat; /* Prevent image repeating */
       background-position: center; /* Center the image within the button */
       background-size: cover; /* Resize image to cover the button */
@@ -78,6 +78,43 @@
 
     .glossy-button:hover {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+    }
+
+     /* Hamburger Menu Styles */
+     .hamburger {
+      position: fixed;
+      top: 100px;
+      right: 100px;
+      width: 50px;
+      height: 50px;
+      display: none; /* Hide initially for larger screens */
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      cursor: pointer; /* Change cursor to pointer on hover */
+    }
+
+    .hamburger:hover {
+      background-color: #212121; /* Darken on hover */
+    }
+
+    .hamburger span {
+      display: block;
+      width: 30px;
+      height: 3px;
+      margin-bottom: 5px;
+      background-color: #cccccc; /* Grey color for bars */
+    }
+
+    @media only screen and (max-width: 600px) {
+      /* Show hamburger menu on smaller screens */
+      .hamburger {
+        display: flex;
+      }
+      /* Hide regular navigation on smaller screens */
+      nav {
+        display: none;
+      }
     }
   </style>
 </head>
@@ -94,5 +131,10 @@
       <span class="glossy-button"></span>
   </a>
 
+  <div class="hamburger">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+  </div>
 </body>
 </html>
