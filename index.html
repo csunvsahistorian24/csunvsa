@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VSA CSUN</title>
+  <style>
+    body {
+      background-color: #FFDAB9; /* Pastel peach color in HEX code */
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: black;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: center; /* Center the links horizontally */
+      border-radius: 10px; /* Add rounded corners */
+      margin-top: 20px; /* Push the navbar down 50px */
+    }
+
+    nav ul {
+      list-style: none; /* Removes default button points */
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block; /* Makes list items appear side-by-side */
+      margin-right: 20px;
+    }
+
+    nav a {
+      color: #FFDAB9; /* Pastel peach color in HEX code */
+      text-decoration: none; /* Removes underline from links */
+      font-weight: bold; /* Makes text bolder */
+      font-family: Helvetica, cursive;
+    }
+
+    nav a:hover { /* Styles on hover effect */
+      color: #F28B00; /* Slightly darker peach on hover */
+    }
+
+    @media only screen and (max-width: 600px) {
+      /* Styles for screens less than 600px wide */
+      body {
+        font-size: 14px; /* Reduce font size on smaller screens */
+      }
+      .navigation {
+        /* Adjust navigation bar styles for smaller screens */
+      }
+    }
+
+    .button-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); /* Center the button */
+      cursor: pointer; /* Change cursor to pointer on hover */
+    }
+
+    .glossy-button {
+      display: block; /* Make the button element display as a block */
+      width: 200px; /* Adjust width as needed */
+      height: 200px; /* Adjust height as needed to match width for circle */
+      background-image: url("images/csun vsa logo.jpg"); /* Set the button background image */
+      background-repeat: no-repeat; /* Prevent image repeating */
+      background-position: center; /* Center the image within the button */
+      background-size: cover; /* Resize image to cover the button */
+      text-align: center; /* Center text alignment */
+      line-height: 50px; /* Center text vertically */
+      border: none; /* Remove default button border */
+      border-radius: 50%; /* Set border-radius to 50% for circle */
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Add button shadow for glossy effect */
+      transition: box-shadow 0.3s ease; /* Add smooth transition for hover effect */
+    }
+
+    .glossy-button:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+    }
+
+     
+    
+  </style>
+</head>
+<body>
+
+  
+
+  <!--- <nav>
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>  ----->
+
+  <a href="events.html"> <div class="button-container">
+      <span class="glossy-button"></span>
+  </a>
+
+  
+</body>
+</html>
